@@ -20,6 +20,8 @@ boton.addEventListener("click", () => {
     const queAleatorio = que[Math.floor(Math.random()* que.length)]
   
     return `${quienAleatorio} ${cuandoAleatorio} ${queAleatorio}`
+
+    hola
   }
   excusa.textContent = generadorExcusa()
     
